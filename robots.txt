@@ -1,0 +1,8 @@
+# Sustituye el dominio de ejemplo por el real antes de publicar.
+User-agent: *
+Allow: /
+
+# Recursos que los buscadores necesitan para renderizar la página: no bloquear /assets/.
+Disallow: /assets/projects/*.psd
+
+Sitemap: https://tu-dominio.com/sitemap.xml
