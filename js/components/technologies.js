@@ -44,11 +44,25 @@
     );
   }
 
+  function assetBase() {
+    return document.getElementById('project-detail-page') ? '../assets/tech/' : 'assets/tech/';
+  }
+
+  function imageBadge(icon, isMono, size) {
+    var dimension = size || 38;
+    return (
+      '<img class="tech-icon' + (isMono ? ' tech-icon-mono' : '') + '"' +
+      ' src="' + escapeHtml(assetBase() + icon) + '"' +
+      ' alt="" width="' + dimension + '" height="' + dimension + '"' +
+      ' loading="lazy" decoding="async" focusable="false">'
+    );
+  }
+
   function findTech(name) {
     var found = null;
     (Portfolio.technologies || []).forEach(function (category) {
       category.items.forEach(function (item) {
-        if (item.name === name) found = { shape: category.shape, mono: item.mono };
+        if (item.name === name) found = { shape: category.shape, mono: item.mono, icon: item.icon, monoIcon: item.monoIcon };
       });
     });
     return found || { shape: 'square', mono: String(name).slice(0, 4) };
@@ -56,6 +70,7 @@
 
   function badgeFor(name) {
     var tech = findTech(name);
+    if (tech.icon) return imageBadge(tech.icon, tech.monoIcon);
     return badge(tech.shape, tech.mono);
   }
 
@@ -78,9 +93,12 @@
         var headingId = 'tech-' + category.id;
         var items = category.items
           .map(function (item) {
+            var iconHtml = item.icon
+              ? imageBadge(item.icon, item.monoIcon)
+              : badge(category.shape, item.mono);
             return (
               '<li class="tech-item">' +
-              '<span class="tech-badge" aria-hidden="true">' + badge(category.shape, item.mono) + '</span>' +
+              '<span class="tech-badge" aria-hidden="true">' + iconHtml + '</span>' +
               '<span class="tech-name">' + escapeHtml(item.name) + '</span>' +
               '</li>'
             );

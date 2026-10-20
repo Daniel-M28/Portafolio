@@ -606,6 +606,17 @@ html[lang="en"] .flag[data-flag="es"] {
   fill: currentColor;
 }
 
+.tech-badge .tech-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.dark .tech-badge .tech-icon-mono {
+  filter: invert(1) brightness(1.6);
+}
+
 .tech-name {
   font-size: 0.875rem;
   font-weight: 500;
@@ -978,6 +989,17 @@ html[lang="en"] .flag[data-flag="es"] {
   border: 1px solid var(--line);
   border-radius: 4px;
   background: var(--paper);
+}
+
+.contact-icon-img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.dark .contact-icon-img.contact-icon-mono {
+  filter: invert(1) brightness(1.6);
 }
 
 .contact-body {

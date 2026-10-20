@@ -3,20 +3,21 @@
 
   var Portfolio = (window.Portfolio = window.Portfolio || {});
 
-  /* Cada categoría usa una forma geométrica distinta para identificar el área
-     de un vistazo; el monograma evita depender de logotipos de terceros. */
+  /* Cada ítem usa un logo real en assets/tech/ cuando existe (campo icon);
+     el monograma se mantiene como fallback. El flag mono marca logos
+     monocromos que se invierten en modo oscuro. */
   Portfolio.technologies = [
     {
       id: 'frontend',
       labelKey: 'tech.cat.frontend',
       shape: 'square',
       items: [
-        { name: 'HTML5', mono: 'HTML' },
-        { name: 'CSS3', mono: 'CSS' },
-        { name: 'Tailwind CSS', mono: 'TW' },
-        { name: 'JavaScript', mono: 'JS' },
-        { name: 'React', mono: 'Rct' },
-        { name: 'TypeScript', mono: 'TS' }
+        { name: 'HTML5', mono: 'HTML', icon: 'html5.svg' },
+        { name: 'CSS3', mono: 'CSS', icon: 'css3.svg' },
+        { name: 'Tailwind CSS', mono: 'TW', icon: 'tailwindcss.svg' },
+        { name: 'JavaScript', mono: 'JS', icon: 'javascript.svg' },
+        { name: 'React', mono: 'Rct', icon: 'react.svg' },
+        { name: 'TypeScript', mono: 'TS', icon: 'typescript.svg' }
       ]
     },
     {
@@ -24,9 +25,9 @@
       labelKey: 'tech.cat.backend',
       shape: 'hex',
       items: [
-        { name: 'Node.js', mono: 'Node' },
-        { name: 'Express.js', mono: 'Ex' },
-        { name: 'Laravel', mono: 'Lar' }
+        { name: 'Node.js', mono: 'Node', icon: 'nodejs.svg' },
+        { name: 'Express.js', mono: 'Ex', icon: 'express.svg', monoIcon: true },
+        { name: 'Laravel', mono: 'Lar', icon: 'laravel.svg' }
       ]
     },
     {
@@ -34,9 +35,9 @@
       labelKey: 'tech.cat.database',
       shape: 'cylinder',
       items: [
-        { name: 'SQL', mono: 'SQL' },
-        { name: 'MySQL', mono: 'My' },
-        { name: 'PostgreSQL', mono: 'Pg' }
+        { name: 'SQL', mono: 'SQL', icon: 'sql.svg' },
+        { name: 'MySQL', mono: 'My', icon: 'mysql.svg' },
+        { name: 'PostgreSQL', mono: 'Pg', icon: 'postgresql.svg' }
       ]
     },
     {
@@ -44,12 +45,12 @@
       labelKey: 'tech.cat.security',
       shape: 'shield',
       items: [
-        { name: 'API REST', mono: 'API' },
-        { name: 'JWT', mono: 'JWT' },
-        { name: 'Autenticación', mono: 'Auth' },
-        { name: 'Autorización', mono: 'AZ' },
-        { name: 'bcrypt', mono: 'bc' },
-        { name: 'Zod', mono: 'Zod' }
+        { name: 'API REST', mono: 'API', icon: 'api-rest.svg', monoIcon: true },
+        { name: 'JWT', mono: 'JWT', icon: 'jwt.svg', monoIcon: true },
+        { name: 'Autenticación', mono: 'Auth', icon: 'autenticacion.svg', monoIcon: true },
+        { name: 'Autorización', mono: 'AZ', icon: 'autorizacion.svg', monoIcon: true },
+        { name: 'bcrypt', mono: 'bc', icon: 'bcrypt.svg', monoIcon: true },
+        { name: 'Zod', mono: 'Zod', icon: 'zod.svg', monoIcon: true }
       ]
     },
     {
@@ -57,10 +58,10 @@
       labelKey: 'tech.cat.ai',
       shape: 'spark',
       items: [
-        { name: 'AI Agents', mono: 'Ag' },
-        { name: 'Agent Skills', mono: 'Sk' },
-        { name: 'MCP', mono: 'MCP' },
-        { name: 'Prompt Engineering', mono: 'Pmt' }
+        { name: 'AI Agents', mono: 'Ag', icon: 'ai-agents.svg', monoIcon: true },
+        { name: 'Agent Skills', mono: 'Sk', icon: 'agent-skills.svg', monoIcon: true },
+        { name: 'MCP', mono: 'MCP', icon: 'mcp.svg', monoIcon: true },
+        { name: 'Prompt Engineering', mono: 'Pmt', icon: 'prompt-engineering.svg', monoIcon: true }
       ]
     },
     {
@@ -68,10 +69,10 @@
       labelKey: 'tech.cat.tools',
       shape: 'circle',
       items: [
-        { name: 'Git', mono: 'Git' },
-        { name: 'GitHub', mono: 'GH' },
-        { name: 'Postman', mono: 'Pm' },
-        { name: 'Prisma', mono: 'Pr' }
+        { name: 'Git', mono: 'Git', icon: 'git.svg' },
+        { name: 'GitHub', mono: 'GH', icon: 'github.svg', monoIcon: true },
+        { name: 'Postman', mono: 'Pm', icon: 'postman.svg' },
+        { name: 'Prisma', mono: 'Pr', icon: 'prisma.svg', monoIcon: true }
       ]
     }
   ];
