@@ -177,7 +177,7 @@
       highlights: { es: ['Internacionalización con cambio de idioma en tiempo real', 'Tema claro/oscuro persistente en el navegador', 'Renderizado de datos dinámico desde estructuras de datos', 'Diseño responsive y accesible'], en: ['Internationalization with real-time language switching', 'Light/dark theme persisted in the browser', 'Dynamic data rendering from data structures', 'Responsive and accessible design'] },
       challenges: { es: 'Uno de los principales retos fue utilizar inteligencia artificial sin perder el control sobre las decisiones técnicas y la estructura del proyecto. Para abordarlo, se definieron instrucciones y criterios de desarrollo que orientan el comportamiento del agente, delimitan las tecnologías permitidas y establecen convenciones para mantener la consistencia del código.', en: 'One of the main challenges was using artificial intelligence without losing control over the technical decisions and structure of the project. To address this, instructions and development criteria were defined to guide the agent\'s behavior, delimit the allowed technologies and establish conventions to maintain code consistency.' },
       repository: null,
-      demo: null,
+      demo: 'https://portafolio-theta-steel.vercel.app/',
       images: [
         {
           src: 'assets/images/portafolio.png',
