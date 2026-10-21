@@ -25,7 +25,7 @@
 
       'hero.role': 'Full Stack Developer',
       'hero.text':
-        'Construyo aplicaciones web completas, desde la interfaz hasta la base de datos. Trabajo con HTML, CSS, JavaScript y React en el frontend, y con Node.js y Laravel en el backend, cuidando la calidad del código, la seguridad y la experiencia de usuario.',
+        'Construyo aplicaciones web completas, desde la interfaz hasta la base de datos. Trabajo con JavaScript y React en el frontend, y con Node.js y Laravel en el backend, cuidando la calidad del código, la seguridad y la experiencia de usuario.',
       'hero.cta.projects': 'Ver proyectos',
       'hero.cta.contact': 'Contactar',
       'hero.diagram':
