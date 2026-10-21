@@ -25,7 +25,7 @@
 
       'hero.role': 'Full Stack Developer',
       'hero.text':
-        'Construyo aplicaciones web completas, desde la interfaz hasta la base de datos. Trabajo con HTML, CSS y JavaScript en el frontend, y con Node.js y Laravel en el backend, cuidando la calidad del código, la seguridad y la experiencia de usuario.',
+        'Construyo aplicaciones web completas, desde la interfaz hasta la base de datos. Trabajo con HTML, CSS, JavaScript y React en el frontend, y con Node.js y Laravel en el backend, cuidando la calidad del código, la seguridad y la experiencia de usuario.',
       'hero.cta.projects': 'Ver proyectos',
       'hero.cta.contact': 'Contactar',
       'hero.diagram':
@@ -38,26 +38,23 @@
 
       'about.title': 'Sobre mí',
       'about.lede':
-        'Texto provisional. Aquí se resumirá mi perfil profesional en pocas líneas.',
+        'Perfil profesional',
       'about.personal.title': 'Presentación personal',
       'about.personal.body':
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Desarrollador Full Stack interesado en construir productos digitales claros, mantenibles y bien resueltos de principio a fin.',
+        'Desarrollador Full Stack enfocado en la construcción de aplicaciones web, con interés en crear soluciones funcionales, intuitivas y bien estructuradas. Me gusta comprender cómo funcionan las tecnologías que utilizo y participar en las diferentes etapas del desarrollo, desde el diseño de interfaces hasta la implementación de la lógica de negocio y la gestión de datos., mantenibles y bien resueltos de principio a fin.',
       'about.education.title': 'Formación académica',
       'about.education.body':
-        'Lorem ipsum dolor sit amet. Formación en desarrollo web y programación, complementada con estudio autodidacta, documentación oficial y proyectos propios.',
+        'Tecnólogo en Análisis y Desarrollo de Software. (SENA 2026)',
       'about.focus.title': 'Enfoque profesional',
       'about.focus.body':
-        'Lorem ipsum dolor sit amet. Prefiero soluciones simples antes que complejas: estructura clara, código legible y una base que se pueda mantener con el tiempo.',
+        'Mi enfoque se basa en desarrollar software con estructuras claras, código legible y soluciones mantenibles. Me interesa comprender los fundamentos detrás de cada implementación, aplicar buenas prácticas de desarrollo y construir arquitecturas que faciliten la escalabilidad y evolución de las aplicaciones.',
       'about.experience.title': 'Experiencia práctica',
       'about.experience.body':
-        'Lorem ipsum dolor sit amet. Proyectos de extremo a extremo: interfaces con HTML, CSS y JavaScript, APIs con Node.js y Laravel, y diseño de bases de datos relacionales.',
-      'about.interests.title': 'Intereses en desarrollo e IA',
-      'about.interests.body':
-        'Lorem ipsum dolor sit amet. Interés especial en integrar inteligencia artificial en productos reales: agentes, skills y automatizaciones, sin dejar de lado el desarrollo web tradicional.',
-
+        'Experiencia práctica mediante el desarrollo de aplicaciones web Full Stack, incluyendo sistemas de autenticación y autorización con JWT, plataformas de comercio electrónico, sistemas de gestión y aplicaciones administrativas. He trabajado en la construcción de interfaces, desarrollo de APIs REST, integración con bases de datos PostgreSQL y MySQL, gestión de roles y permisos, y despliegue de aplicaciones en entornos de producción.',
+     
       'tech.title': 'Tecnologías y herramientas',
       'tech.lede':
-        'Herramientas con las que trabajo, organizadas por área. Sin porcentajes de dominio: solo lo que uso.',
+        'Herramientas con las que trabajo',
       'tech.cat.frontend': 'Frontend',
       'tech.cat.backend': 'Backend',
       'tech.cat.database': 'Bases de datos',
@@ -91,7 +88,7 @@
 
       'contact.title': 'Contacto',
       'contact.lede':
-        'Datos provisionales. Estoy disponible para conversar sobre proyectos, prácticas o colaboraciones.',
+        'Disponible',
       'contact.email': 'Correo electrónico',
 
       'footer.top': 'Volver arriba'
@@ -118,7 +115,7 @@
 
       'hero.role': 'Full Stack Developer',
       'hero.text':
-        'I build complete web applications, from the interface down to the database. I work with HTML, CSS and JavaScript on the frontend, and Node.js and Laravel on the backend, with close attention to code quality, security and user experience.',
+        'I build complete web applications, from the interface down to the database. I work with HTML, CSS, JavaScript y React on the frontend, and Node.js and Laravel on the backend, with close attention to code quality, security and user experience.',
       'hero.cta.projects': 'View projects',
       'hero.cta.contact': 'Get in touch',
       'hero.diagram':

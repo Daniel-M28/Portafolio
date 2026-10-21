@@ -314,9 +314,24 @@ html[lang="en"] .flag[data-flag="es"] {
   font-weight: 600;
 }
 
+.nav-sep {
+  display: block;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  background: var(--line);
+}
+
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
+  }
+
+  .nav-sep {
+    width: 1px;
+    height: 26px;
+    align-self: center;
+    margin-inline: 0.25rem;
   }
 
   .nav-menu {
@@ -349,6 +364,29 @@ html[lang="en"] .flag[data-flag="es"] {
    encabezados y la tipografia de bloques se resuelven con
    utilidades de Tailwind en el HTML.
    ========================================================= */
+
+/* =========================================================
+   Fondo animado (Plexus / Constelación)
+   ========================================================= */
+.hero-canvas-host {
+  position: relative;
+  overflow: hidden;
+}
+
+#bg-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-canvas-host .wrap {
+  position: relative;
+  z-index: 1;
+}
 
 /* =========================================================
    Inicio (hero)

@@ -17,6 +17,7 @@
     safeInit('theme');
     safeInit('navigation');
     safeInit('projectsView');
+    safeInit('plexus');
 
     /* Se aplica al final: dispara el renderizado con las traducciones
        centralizadas de los componentes registrados. */

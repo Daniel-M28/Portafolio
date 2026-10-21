@@ -109,6 +109,8 @@
           <li><a href="#contacto" data-nav data-i18n="nav.contacto">Contacto</a></li>
         </ul>
 
+        <span class="nav-sep" aria-hidden="true"></span>
+
         <div class="nav-controls">
           <div class="lang">
             <button class="icon-btn" id="lang-toggle" type="button"
@@ -203,13 +205,14 @@
 
   <main id="contenido">
 
-    <section class="py-[4.5rem] md:py-[6.5rem]" id="inicio">
+    <section class="hero-canvas-host py-[4.5rem] md:py-[6.5rem]" id="inicio">
+      <canvas id="bg-canvas" aria-hidden="true"></canvas>
       <div class="wrap">
         <div class="hero-copy text-center mx-auto max-w-[60rem]">
           <p class="hero-role reveal" style="--delay:.05s" data-i18n="hero.role">Full Stack Developer</p>
           <h1 class="hero-name reveal" style="--delay:.12s">Daniel Murillo</h1>
           <p class="hero-text reveal mx-auto" style="--delay:.19s" data-i18n="hero.text">
-            Construyo aplicaciones web completas, desde la interfaz hasta la base de datos. Trabajo con HTML, CSS y
+            Construyo aplicaciones web completas, desde la interfaz hasta la base de datos. Trabajo con HTML, CSS 
             JavaScript y React en el frontend, y con Node.js y Laravel en el backend, cuidando la calidad del código, la
             seguridad y la experiencia de usuario.
           </p>
@@ -278,7 +281,7 @@
         <div class="max-w-[46rem] border-l-[3px] border-accent pl-[1.1rem]">
           <h2 class="font-display text-display-lg" data-i18n="tech.title">Tecnologías y herramientas</h2>
           <p class="mt-[0.85rem] max-w-[58ch] text-[1.05rem] leading-[1.6] text-muted" data-i18n="tech.lede">
-            Herramientas con las que trabajo, organizadas por área. Sin porcentajes de dominio: solo lo que uso.
+            Herramientas con las que trabajo.
           </p>
         </div>
         <div class="tech-categories" id="tech-categories"></div>
@@ -312,7 +315,7 @@
         <div class="max-w-[46rem] border-l-[3px] border-accent pl-[1.1rem]">
           <h2 class="font-display text-display-lg" data-i18n="contact.title">Contacto</h2>
           <p class="mt-[0.85rem] max-w-[58ch] text-[1.05rem] leading-[1.6] text-muted" data-i18n="contact.lede">
-            Datos provisionales. Estoy disponible para conversar sobre proyectos, prácticas o colaboraciones.
+            Disponible
           </p>
         </div>
 
@@ -379,6 +382,7 @@
   <script defer src="js/modules/navigation.js"></script>
   <script defer src="js/components/technologies.js"></script>
   <script defer src="js/components/projects.js"></script>
+  <script defer src="js/modules/plexus.js"></script>
   <script defer src="script.js"></script>
 </body>
 </html>
