@@ -134,6 +134,7 @@
     options = Array.prototype.slice.call(document.querySelectorAll('[data-lang]'));
 
     currentLang = detectLang();
+    closeMenu();
     bindControls();
     apply();
   }

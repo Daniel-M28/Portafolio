@@ -72,7 +72,7 @@
     return (
       '<article class="project">' +
       '<div class="project-media">' +
-      '<img src="' + escapeHtml(image.src) + '" alt="' + escapeHtml(localized(image.alt)) + '" loading="lazy" decoding="async" width="640" height="400">' +
+      '<img src="' + escapeHtml(image.src) + '" alt="' + escapeHtml(localized(image.alt)) + '" loading="lazy" decoding="async">' +
       '<span class="project-cue">' + escapeHtml(t('projects.details')) + '</span>' +
       '</div>' +
       '<div class="project-body">' +
@@ -136,7 +136,7 @@
       '<h3 class="detail-title" id="project-detail-title" tabindex="-1">' + escapeHtml(name) + '</h3>' +
       '<p class="detail-summary">' + escapeHtml(localized(project.summary)) + '</p>' +
       '<div class="detail-gallery">' +
-      '<img class="detail-main-image" id="detail-main-image" src="' + escapeHtml(project.images[0].src) + '" alt="' + escapeHtml(localized(project.images[0].alt)) + '" decoding="async" width="960" height="600">' +
+      '<img class="detail-main-image" id="detail-main-image" src="' + escapeHtml(project.images[0].src) + '" alt="' + escapeHtml(localized(project.images[0].alt)) + '" decoding="async">' +
       '<ul class="detail-thumbs">' + thumbs + '</ul>' +
       '</div>' +
       '<div class="detail-content">' +

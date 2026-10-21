@@ -73,7 +73,8 @@
     var name = localized(project.name);
     var titleEl = document.getElementById('project-page-title');
     var descEl = document.getElementById('project-page-description');
-    var pageTitle = name + ' — Portafolio';
+    var portfolioLabel = lang() === 'en' ? 'Portfolio' : 'Portafolio';
+    var pageTitle = name + ' — ' + portfolioLabel;
     if (titleEl) titleEl.textContent = pageTitle;
     document.title = pageTitle;
 
@@ -105,7 +106,7 @@
       '<h1 class="detail-title" id="project-detail-title" tabindex="-1">' + escapeHtml(name) + '</h1>' +
       '<p class="detail-summary">' + escapeHtml(summaryText) + '</p>' +
       '<div class="detail-gallery">' +
-      '<img class="detail-main-image" id="detail-main-image" src="../' + escapeHtml(project.images[0].src) + '" alt="' + escapeHtml(localized(project.images[0].alt)) + '" decoding="async" width="960" height="600">' +
+      '<img class="detail-main-image" id="detail-main-image" src="../' + escapeHtml(project.images[0].src) + '" alt="' + escapeHtml(localized(project.images[0].alt)) + '" decoding="async">' +
       '<ul class="detail-thumbs">' + thumbs + '</ul>' +
       '</div>' +
       '<div class="detail-content">' +

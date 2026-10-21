@@ -5,7 +5,7 @@
 
   Portfolio.translations = {
     es: {
-      'meta.title': 'Nombre Apellido — Full Stack Developer | Portafolio',
+      'meta.title': 'Daniel Murillo — Full Stack Developer | Portafolio',
       'meta.description':
         'Portafolio de un desarrollador Full Stack: tecnologías, proyectos con y sin inteligencia artificial, y vías de contacto.',
 
@@ -51,6 +51,9 @@
       'about.experience.title': 'Experiencia práctica',
       'about.experience.body':
         'Experiencia práctica mediante el desarrollo de aplicaciones web Full Stack, incluyendo sistemas de autenticación y autorización con JWT, plataformas de comercio electrónico, sistemas de gestión y aplicaciones administrativas. He trabajado en la construcción de interfaces, desarrollo de APIs REST, integración con bases de datos PostgreSQL y MySQL, gestión de roles y permisos, y despliegue de aplicaciones en entornos de producción.',
+      'about.interests.title': 'Intereses en desarrollo e IA',
+      'about.interests.body':
+        'Interés especial en integrar inteligencia artificial en productos reales: agentes, skills y automatizaciones, sin dejar de lado el desarrollo web tradicional.',
      
       'tech.title': 'Tecnologías y herramientas',
       'tech.lede':
@@ -64,7 +67,7 @@
 
       'projects.title': 'Proyectos',
       'projects.lede':
-        'Proyectos desarrollados con tecnologías tradicionales y proyectos que integran inteligencia artificial.',
+        'Proyectos construidos con metodologías de desarrollo convencionales y soluciones potenciadas por inteligencia artificial',
       'projects.tablist': 'Categorías de proyectos',
       'projects.tab.noai': 'Proyectos sin IA',
       'projects.tab.ai': 'Proyectos con IA',
@@ -95,7 +98,7 @@
     },
 
     en: {
-      'meta.title': 'Your Name — Full Stack Developer | Portfolio',
+      'meta.title': 'Daniel Murillo — Full Stack Developer | Portfolio',
       'meta.description':
         'Full Stack developer portfolio: technologies, projects with and without artificial intelligence, and contact channels.',
 
@@ -115,7 +118,7 @@
 
       'hero.role': 'Full Stack Developer',
       'hero.text':
-        'I build complete web applications, from the interface down to the database. I work with HTML, CSS, JavaScript y React on the frontend, and Node.js and Laravel on the backend, with close attention to code quality, security and user experience.',
+        'I build complete web applications, from the interface down to the database. I work with JavaScript and React on the frontend, and Node.js and Laravel on the backend, with close attention to code quality, security and user experience.',
       'hero.cta.projects': 'View projects',
       'hero.cta.contact': 'Get in touch',
       'hero.diagram':
@@ -128,26 +131,26 @@
 
       'about.title': 'About me',
       'about.lede':
-        'Provisional text. This is where my professional profile will be summarised in a few lines.',
+        'Professional profile',
       'about.personal.title': 'Personal introduction',
       'about.personal.body':
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Full Stack developer interested in building digital products that are clear, maintainable and well solved end to end.',
+        'Full Stack developer focused on building web applications, with an interest in creating functional, intuitive and well-structured solutions. I like to understand how the technologies I use work and to take part in the different stages of development, from interface design to business logic implementation and data management., maintainable and well solved end to end.',
       'about.education.title': 'Education',
       'about.education.body':
-        'Lorem ipsum dolor sit amet. Training in web development and programming, complemented with self-study, official documentation and personal projects.',
+        'Technologist in Software Analysis and Development. (SENA 2026)',
       'about.focus.title': 'Professional approach',
       'about.focus.body':
-        'Lorem ipsum dolor sit amet. I prefer simple solutions over complex ones: clear structure, readable code and a base that can be maintained over time.',
+        'My approach is based on building software with clear structures, readable code and maintainable solutions. I am interested in understanding the fundamentals behind every implementation, applying good development practices and building architectures that make applications easier to scale and evolve.',
       'about.experience.title': 'Hands-on experience',
       'about.experience.body':
-        'Lorem ipsum dolor sit amet. End-to-end projects: interfaces with HTML, CSS and JavaScript, APIs with Node.js and Laravel, and relational database design.',
+        'Hands-on experience through the development of Full Stack web applications, including authentication and authorization systems with JWT, e-commerce platforms, management systems and administrative applications. I have worked on building interfaces, developing REST APIs, integrating PostgreSQL and MySQL databases, managing roles and permissions, and deploying applications in production environments.',
       'about.interests.title': 'Software and AI interests',
       'about.interests.body':
-        'Lorem ipsum dolor sit amet. Special interest in bringing artificial intelligence into real products: agents, skills and automations, while keeping the traditional web side of the craft.',
+        'Special interest in bringing artificial intelligence into real products: agents, skills and automations, while keeping the traditional web side of the craft.',
 
       'tech.title': 'Technologies and tools',
       'tech.lede':
-        'The tools I work with, organised by area. No proficiency percentages: only what I actually use.',
+        'The tools I work with.',
       'tech.cat.frontend': 'Frontend',
       'tech.cat.backend': 'Backend',
       'tech.cat.database': 'Databases',
@@ -181,7 +184,7 @@
 
       'contact.title': 'Contact',
       'contact.lede':
-        'Provisional data. I am available to talk about projects, internships or collaborations.',
+        'Available',
       'contact.email': 'Email',
 
       'footer.top': 'Back to top'
